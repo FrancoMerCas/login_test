@@ -19,6 +19,6 @@ class TestLoginScreenViewModelTest {
 
     @Test
     fun validateLogin_faildEmail_ReturnsFalse(){
-        assertEquals(false, testSample.validateLogin("emailtest@emailtest.com"))
+        assertEquals(false, testSample.validateLogin("test_totext"))
     }
 }
